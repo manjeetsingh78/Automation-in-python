@@ -1,12 +1,8 @@
-# Author: Ardit Sulce, Automate Everything with Python, Udemy
-# Course URL: https://www.udemy.com/course/automate-everything-with-python/
-
 from selenium import webdriver
 import time
 from datetime import datetime as dt
 
 def get_drvier():
-  # Set options to make browsing easier
   options = webdriver.ChromeOptions()
   options.add_argument("disable-infobars")
   options.add_argument("start-maximized")
